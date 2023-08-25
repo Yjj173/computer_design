@@ -1,0 +1,9 @@
+$subColor;
+$menuActiveText;
+$menuText;
+$menuBg;
+:root {
+  --bg-color: #10141d; //默认背景颜色
+}
+
+$bg-color: var(--bg-color); //默认背景颜色
