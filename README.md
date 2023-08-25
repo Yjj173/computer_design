@@ -23,24 +23,40 @@
 
 ### 3.1 最低环境要求
 CPU:E5 虚拟化双核
+
 内存：2GB
+
 硬盘：20GB(Linux)/40GB(Windows)
+
 网络：2Mbps
+
 系统：Ubuntu18.04+
+
 软件环境:Python3.8+、Nginx、Redis
 
 ### 3.2 目录结构
 具体代码详见附件中的代码包，以下仅给出二级目录说明。
+
 |—Docs # 存放设计文档
+
 |—src—Fronted # 存放前端代码
+
 |—app.py # flask 后端程序
+
 |—backend.py # 传感器后端程序
+
 |—Common.py # 通用类
+
 |—config.py # 配置文件
+
 |—Dbconn.py # 数据库驱动程序
+
 |—fronted.py # 传感器前端节点程序
+
 |—GetData.py # 数据库驱动程序的封装
+
 |—init.sh # 数据库建设脚本
+
 |—README.md # 项目手册
 
 ### 3.3 快速入门
